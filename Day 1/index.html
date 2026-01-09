@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="Demo1"></p>
+    <p id="Demo2"></p>
+    <script>
+        const fruits = ["Banana", "Mango", "Potato"]
+        document.getElementById("Demo1").innerHTML = fruits;
+        
+        fruits.splice(2, 0 , "Lemon" ,"Kiwi")
+        document.getElementById("Demo2").innerHTML = fruits;
+        
+    </script>
+</body>
+
+</html>
